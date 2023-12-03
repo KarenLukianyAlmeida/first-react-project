@@ -1,8 +1,10 @@
-const firstName = 'Miguel';
-const lastName = 'Silva';
+const user = {
+  firstName: 'Fulano',
+  lastName: 'Detal',
+};
 
 function User() {
-  return <span>{`${firstName} ${lastName}`}</span>;
+  return <span>{`${user.firstName} ${user.lastName}`}</span>;
 }
 
 export default User;
