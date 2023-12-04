@@ -15,4 +15,29 @@
 
 .books-list {
   background-color: #fff;
+  border-bottom: 1px solid #53abe7;
+}
+
+.books-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+
+.books-form input {
+  height: 40px;
+  margin: 0 0 10px 0;
+  font-size: 1rem;
+}
+
+.form-message {
+  color: #e22859;
+  border-left: 3px solid #e22859;
+  padding-left: 8px;
+  background-color: #fafafa;
+}
+
+.form-message p {
+  padding: 8px 0;
 }
